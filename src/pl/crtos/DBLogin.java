@@ -39,6 +39,8 @@ public class DBLogin extends Application  {
         addGridPaneToDialog();
         onDialogStartSettings();
         showThisDialog();
+        new DBLayout();
+
     }
 
     private void initComponents() {
@@ -135,6 +137,7 @@ public class DBLogin extends Application  {
             }
 
         });
+
     }
 
     private void setData(String username, String password) {
